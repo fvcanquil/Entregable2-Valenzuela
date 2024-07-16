@@ -16,3 +16,41 @@ body {
 
 
 }
+
+.navbar-logo {
+    width: auto;
+    height: 30px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #343a40; 
+    color: black;
+}
+
+.citas-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 10px;
+}
+
