@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: auto;
+    background-color: white;
+}
+
+
+.navbar {
+    background-color: black;
+    
+}
+
+.navbar-brand {
+    color: white !important;
+
+
+}
