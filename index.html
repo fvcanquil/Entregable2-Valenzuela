@@ -31,7 +31,7 @@
     <div class="centered-container">
         <div class="citas-form">
             <h1 class="text-center">Agendar Cita</h1>
-            <form id="appointment-form">
+            <form id="appointmentform">
                 <div class="form-group">
                     <label for="nombre">Nombre del Paciente:</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Ingresa el nombre del paciente" required>
@@ -52,19 +52,20 @@
                         <option value="isapre">ISAPRE</option>
                     </select>
                 </div>
-                <button type="button" class="btn btn-outline-primary">Agendar Cita</button>
+                <button type="submit" class="btn btn-outline-primary">Agendar Cita</button>
             </form>
+        </div>
+
+        <!--Citas Agendadas-->
+        <div class="citas-form">
+            <h2>Citas Agendadas</h2>
+            <ul id="appointment-list"></ul>   
         </div>
     </div>
 
-
-
- 
-
     <!--LINK BOOSTRAP-->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-r9Tpc6JAg36zPhlDJH99kZJl8HDbU9AMFv3p/0z5aFzEE2ytEibczoIerUks8xCB" crossorigin="anonymous"></script>
 </body>
 </html>
